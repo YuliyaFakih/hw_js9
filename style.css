@@ -1,0 +1,49 @@
+body {
+    background-image: url(./bg.jpg);
+}
+
+button {
+    background: #a55fe8;
+    border: 2px solid #ffffff;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+}
+
+.container {
+    display: grid;
+    width: 350px;
+    text-align: center;
+    height: auto;
+    background-color:#e4d1f5;
+    align-items: center;
+    margin: 40px auto;
+    box-shadow: -3px 1px 6px 16px #d4c9c952;
+}
+
+.container div:nth-child(1) {
+    background-color: #6d25b1;
+    padding: 10px 0;
+    font-size: 23px;
+    font-weight: bold;
+    color: white;
+}
+
+.inputField {
+    padding: 10px 0;
+}
+
+#submit {
+    margin-left: 30px;
+    background: #a55fe8;
+    border: 2px solid #ffffff;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    margin-right: auto;
+}
+
