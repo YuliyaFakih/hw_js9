@@ -27,12 +27,9 @@ submit.addEventListener('click', function (event) {
     }
     check.addEventListener('click', decor)
     //зачёркивается только один раз
-
     
     li.addEventListener('dblclick', function () {
     li.innerHTML = prompt ('enter a new task') 
-
-    //не получилось разделить чекбокс и текст, чтобы при изменении оба элемента отображались, а не только текст
 
 })
 
